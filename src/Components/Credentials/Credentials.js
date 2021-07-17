@@ -35,7 +35,7 @@ function Credentials() {
                       <div>
                           
                         <form class="d-flex"  style={{marginTop:"20px", width:"500px"}}>
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={data}/>
+                            <input class="form-control me-2" type="search" placeholder="Search By Name..." aria-label="Search" onChange={data}/>
                             {/* <button class="btn btn-outline-success" type="submit">Search</button> */}
                         </form>
                     </div>

@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home'
 import Credentials from './Components/Credentials/Credentials'
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
+import Login from './Login'
+import SignUp from './SignUp'
 
 
 
@@ -20,6 +22,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/credentials" component={Credentials} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/signup" component={SignUp} />
           {/* <Route component={} /> */}
         </Switch>
       </section>
