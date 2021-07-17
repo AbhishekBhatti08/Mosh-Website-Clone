@@ -1,0 +1,17 @@
+
+.card-Width {
+    border-top: 20px;
+    padding: 20px;
+    /* background-color: aqua; */
+ }
+
+ .cards-size {
+    height: 600px;
+ }
+
+ .card-detail {
+    padding: 0px;
+    max-height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+ }
