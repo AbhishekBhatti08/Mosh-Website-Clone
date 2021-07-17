@@ -6,9 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducer from './Reducer.js';
+import { dom } from '@fortawesome/fontawesome-svg-core'
 
 const store = createStore(reducer);
-
+dom.watch()
 
 ReactDOM.render(
   <React.StrictMode>

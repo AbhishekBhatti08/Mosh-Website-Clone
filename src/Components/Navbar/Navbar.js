@@ -1,15 +1,20 @@
 import React from 'react';
 import './Navbar.css';
 import { NavLink, Route, RouteComponentProps } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+// import { shoppingcart } from '@fortawesome/free-solid-svg-icons'
+
+
 
 
 function Navbar() {
   return (
-    <div>
+    <div  className="d-flex justify-content-start">
       <nav className="navbar navbar-expand-lg navbar-light bg-body">
         <div className="container-fluid">
 
-          <div className="d-flex justify-content-start">
+          <div>
 
             <NavLink to={'/'} className='navbar-brand'>
               Home
@@ -47,20 +52,15 @@ function Navbar() {
                   </NavLink>
                 </li>
               </ul>
-              
-              <NavLink to={'/signup'} className='btn bg-danger' type="button" >
-                    Sign Up
+
+              <div >
+               <NavLink to={'/signup'} className='btn bg-danger' type="button" >
+                Sign Up
               </NavLink>
-              
-
-              {/* <form className="d-flex">
-                  <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                  <button className="btn btn-outline-success" type="submit">Search</button>
-                </form> */}
+                <FontAwesomeIcon icon={faCoffee} />
+                <i class="fas fa-shopping-cart"></i>
+              </div>
             </div>
-
-
-
 
           </div>
 

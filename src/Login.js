@@ -8,7 +8,7 @@ function Login() {
 
             <main className="form-signin">
                 <form>
-                    <img className="mb-4" src="" alt="" width="72" height="57"/>
+                    <img className="mb-4" src="/images/logo3x.jpg" alt="" width="72" height="57"/>
                         <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
 
                         <div className="form-floating">
