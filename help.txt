@@ -15,3 +15,22 @@ git push -u origin main
 New fiel added
 
 Working on the Project
+
+
+# Social Login
+
+1. Gmail:
+https://console.cloud.google.com/
+Your Client ID - 476669499742-aanemsrs49c2o42hkelhd5td3514hfq2.apps.googleusercontent.com
+
+2. Facebook:
+https://developers.facebook.com/
+App ID - 2919254468402644
+
+
+
+Google Login
+npm package - https://www.npmjs.com/package/react-google-login
+
+Code Reference - https://codingdiksha.com/login-with-google-using-reactjs/
+
