@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import { NavLink, Route, RouteComponentProps } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 // import { shoppingcart } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -10,7 +10,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
   return (
-    <div  className="d-flex justify-content-start">
+    <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-body">
         <div className="container-fluid">
 
@@ -53,12 +53,13 @@ function Navbar() {
                 </li>
               </ul>
 
-              <div >
-               <NavLink to={'/signup'} className='btn bg-danger' type="button" >
-                Sign Up
-              </NavLink>
-                <FontAwesomeIcon icon={faCoffee} />
-                <i class="fas fa-shopping-cart"></i>
+              <div>
+                <NavLink to={'/signup'} className='btn bg-danger' type="button" >
+                  Sign Up
+                </NavLink>
+                <NavLink to={'/checkout'} className='nav-link'>
+                  <i class="fas fa-shopping-cart"></i>
+                </NavLink>
               </div>
             </div>
 

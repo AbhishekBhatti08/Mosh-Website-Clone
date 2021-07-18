@@ -35,7 +35,7 @@ function Login() {
 
             <main className="form-signin">
                 <form>
-                    <img className="mb-4" src="/images/logo3x.jpg" alt="" width="72" height="57" />
+                    <img className="mb-4" src="/images/logo3x.jpg" alt="" width="200" height="65" />
                     <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
 
                     <div className="form-floating">
@@ -53,6 +53,11 @@ function Login() {
                         </label>
                     </div>
                     <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+
+                    <br></br>
+                    <hr></hr>
+                    <h6 style={{margin:"auto"}}>Or Sign in using your Google Account</h6>
+                    <br></br>
                     <div>
                         {showloginButton ?
                             <GoogleLogin

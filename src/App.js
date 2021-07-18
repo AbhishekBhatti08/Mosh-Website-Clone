@@ -6,6 +6,7 @@ import Credentials from './Components/Credentials/Credentials'
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 import Login from './Login'
 import SignUp from './SignUp'
+import Checkout from './Checkout';
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/credentials" component={Credentials} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={SignUp} />
+          <Route exact path="/checkout" component={Checkout} />
           {/* <Route component={} /> */}
         </Switch>
       </section>
